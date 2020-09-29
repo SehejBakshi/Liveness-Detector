@@ -33,10 +33,5 @@ There are three main directories in the project:
    <br>To run: <br>&ensp;&ensp;&ensp; i. for real videos <strong><code>python generate_frames.py --input videos/real1.mp4 --output dataset/real --detector face_detector --skip 1</code></strong>
    <br>To run: <br>&ensp;&ensp;&ensp; ii. for fake videos <strong><code>python generate_frames.py --input videos/fake1.mp4 --output dataset/fake --detector face_detector --skip 4</code></strong>
    <br><br> Here skip is used to skip N frames between detections because adjacent frames will be similar.
-<br>
-![](images/Generate_frames1.jpg)
-<br>
-![](images/Generate_frames2.jpg)
-<br>
-
+![Generate_frames1](images/Generate_frames1.jpg)
 5. Ran the <strong>trainmodel.py</strong> script by typing in the terminal/cmd: <strong><code>python trainmodel.py --dataset dataset --model liveness.model --le le.pickle</code></strong>
