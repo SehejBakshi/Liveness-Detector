@@ -34,7 +34,7 @@ There are three main directories in the project:
    <br>To run: <br>&ensp;&ensp;&ensp; ii. for fake videos <strong><code>python generate_frames.py --input videos/fake1.mp4 --output dataset/fake --detector face_detector --skip 4</code></strong>
    <br><br> Here skip is used to skip N frames between detections because adjacent frames will be similar.
 <br>
-![Generate Frames](images/Generate_frames1.jpg?raw=true)
-
+![Generate Frames1](https://github.com/SehejBakshi/Liveness-Detector/blob/master/images/Generate_frames1.jpg?raw=true)
+<br>
 
 5. Ran the <strong>trainmodel.py</strong> script by typing in the terminal/cmd: <strong><code>python trainmodel.py --dataset dataset --model liveness.model --le le.pickle</code></strong>
