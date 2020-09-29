@@ -36,7 +36,7 @@ There are three main directories in the project:
 <br>
 ![Generate_frames1](images/Generate_frames1.jpg?raw=true "Generate_frames1")
 <br>
-![Generate_frames2](images/Generate_frames1.jpg?raw=true "Generate_frames2")
+![Generate_frames2](images/Generate_frames2.jpg?raw=true "Generate_frames2")
 <br>
 
 5. Ran the <strong>trainmodel.py</strong> script by typing in the terminal/cmd: <strong><code>python trainmodel.py --dataset dataset --model liveness.model --le le.pickle</code></strong>
