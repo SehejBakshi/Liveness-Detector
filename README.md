@@ -53,4 +53,5 @@ There are three main directories in the project:
 To make sure you do not get an imbalanced dataset, set the skip rate accordingly while running the <strong>generate_frames.py</strong> script.
 
 ## Scope:
-Can be implemented in Face Recognition systems in companies and can be used for face unlocking in phones.
+1. Can be implemented in Face Recognition systems in companies and can be used for face unlocking in phones.
+2. The current liveness detection can be combined with eye blink detection(using facial landmark detector and setting an eye blink threshold) which will be feasible to filter out most of the remaining cases.
